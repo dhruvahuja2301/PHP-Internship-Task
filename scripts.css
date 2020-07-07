@@ -1,0 +1,30 @@
+#behind {
+    margin-top: 10rem;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#behind .card {
+    background-color: transparent;
+    border: 0;
+}
+#front {
+    border-radius: 5%;
+    margin-top: 7rem;
+}
+#sign-up {
+    border-radius: 5%;
+    margin-top: 7rem;
+    height: 22rem;
+}
+#right {
+    height: 19rem;
+    background-color: transparent;
+}
+#right .card-body {
+    padding-top: 7rem;
+    color: white;
+}
+body {
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #64b3f4, #c2ff9c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #64b3f4, #c2ff9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
