@@ -13,20 +13,10 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-3">
-                <h1>
-                    Welcome : <span id="home_name"></span> <br>
-                    your password is : <span id="home_password"></span>
-                </h1>
-            </div>
+            <h1 class="text-center">
+                Welcome Home <br>
+            </h1>
         </div>
     </div>
-    <script>
-        const params = (new URL(document.location)).searchParams;
-        const name = params.get("username");
-        const pwd = params.get("password");
-        $("#home_name").html(name);
-        $("#home_password").html(pwd);
-    </script>
 </body>
 </html>
